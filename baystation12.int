@@ -1,6 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
+LAST_COMPILE_VERSION: 506.1250
+WINDOW: code\game\jobs\job\civilian.dm
+DIR: code code\game code\game\jobs code\game\jobs\job code\modules code\modules\clothing code\modules\clothing\under code\modules\clothing\under\jobs 
+FILE: code\game\jobs\job\civilian.dm
+LAST_COMPILE_TIME: 1431751945
 AUTO_FILE_DIR: OFF
 */
 // END_INTERNALS
