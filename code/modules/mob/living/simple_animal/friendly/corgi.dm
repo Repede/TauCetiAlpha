@@ -24,7 +24,7 @@
 	var/obj/item/inventory_back
 	var/facehugger
 
-/*
+
 /mob/living/simple_animal/corgi/Life()
 	..()
 	regenerate_icons()
@@ -69,7 +69,7 @@
 
 	//Removing from inventory
 	if(href_list["remove_inv"])
-		if(!Adjacent(usr) || !(ishuman(usr) || ismonkey(usr) || isrobot(usr) ||  isalienadult(usr)))
+		if(!Adjacent(usr) || !(ishuman(usr) || ismonkey(usr) || isrobot(usr)))
 			return
 		var/remove_from = href_list["remove_inv"]
 		switch(remove_from)
@@ -100,7 +100,7 @@
 
 	//Adding things to inventory
 	else if(href_list["add_inv"])
-		if(!Adjacent(usr) || !(ishuman(usr) || ismonkey(usr) || isrobot(usr) ||  isalienadult(usr)))
+		if(!Adjacent(usr) || !(ishuman(usr) || ismonkey(usr) || isrobot(usr)))
 			return
 		var/add_to = href_list["add_inv"]
 		if(!usr.get_active_hand())
@@ -129,8 +129,6 @@
 						/obj/item/clothing/head/collectable/captain,
 						/obj/item/clothing/head/that,
 						/obj/item/clothing/head/that,
-						/obj/item/clothing/head/kitty,
-						/obj/item/clothing/head/collectable/kitty,
 						/obj/item/clothing/head/rabbitears,
 						/obj/item/clothing/head/collectable/rabbitears,
 						/obj/item/clothing/head/beret,
@@ -203,12 +201,6 @@
 		if(/obj/item/clothing/head/caphat, /obj/item/clothing/head/collectable/captain)
 			name = "Captain [real_name]"
 			desc = "Probably better than the last captain."
-		if(/obj/item/clothing/head/kitty, /obj/item/clothing/head/collectable/kitty)
-			name = "Runtime"
-			emote_see = list("coughs up a furball", "stretches")
-			emote_hear = list("purrs")
-			speak = list("Purrr", "Meow!", "MAOOOOOW!", "HISSSSS", "MEEEEEEW")
-			desc = "It's a cute little kitty-cat! ... wait ... what the hell?"
 		if(/obj/item/clothing/head/rabbitears, /obj/item/clothing/head/collectable/rabbitears)
 			name = "Hoppy"
 			emote_see = list("twitches its nose", "hops around a bit")
@@ -256,7 +248,7 @@
 		if(/obj/item/clothing/head/soft)
 			name = "Corgi Tech [real_name]"
 			desc = "The reason your yellow gloves have chew-marks."
-*/
+
 
 
 //IAN! SQUEEEEEEEEE~

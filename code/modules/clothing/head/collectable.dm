@@ -87,12 +87,14 @@
 	item_state = "pirate"
 	body_parts_covered = 0
 
+/*
 /obj/item/clothing/head/collectable/kitty
 	name = "collectable kitty ears"
 	desc = "The fur feels.....a bit too realistic."
 	icon_state = "kitty"
 	item_state = "kitty"
 	body_parts_covered = 0
+*/
 
 /obj/item/clothing/head/collectable/rabbitears
 	name = "collectable rabbit ears"

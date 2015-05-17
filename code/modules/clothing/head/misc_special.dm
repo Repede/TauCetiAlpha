@@ -131,8 +131,9 @@
 	w_class = 3
 
 /*
- * Kitty ears
+ *  Weeb ears
  */
+
 /obj/item/clothing/head/kitty
 	name = "kitty ears"
 	desc = "A pair of kitty ears. Meow!"
@@ -153,6 +154,7 @@
 		var/icon/earbit2 = new/icon("icon" = 'icons/mob/head.dmi', "icon_state" = "kittyinner2")
 		mob.Blend(earbit, ICON_OVERLAY)
 		mob2.Blend(earbit2, ICON_OVERLAY)
+
 
 /obj/item/clothing/head/richard
 	name = "chicken mask"

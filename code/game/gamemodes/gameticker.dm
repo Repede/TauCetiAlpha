@@ -61,7 +61,6 @@ var/global/datum/controller/gameticker/ticker
 				pregame_timeleft--
 			if(pregame_timeleft == config.vote_autogamemode_timeleft)
 				if(!vote.time_remaining)
-					vote.autogamemode()	//Quit calling this over and over and over and over.
 					while(vote.time_remaining)
 						for(var/i=0, i<10, i++)
 							sleep(1)

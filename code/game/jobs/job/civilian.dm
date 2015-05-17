@@ -208,8 +208,10 @@
 	faction = "Station"
 	total_positions = 1
 	spawn_positions = 1
+	req_admin_notify = 1
 	supervisors = "the head of personnel"
 	selection_color = "#dddddd"
+	minimal_player_age = 14
 	access = list(access_clown, access_theatre, access_maint_tunnels)
 	minimal_access = list(access_clown, access_theatre)
 

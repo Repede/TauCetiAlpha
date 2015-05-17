@@ -10,10 +10,8 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	supervisors = "Nanotrasen officials and Corporate Regulations"
 	selection_color = "#ccccff"
 	idtype = /obj/item/weapon/card/id/gold
-	req_admin_notify = 1
 	access = list() 			//See get_access()
 	minimal_access = list() 	//See get_access()
-	minimal_player_age = 14
 	equip(var/mob/living/carbon/human/H)
 		if(!H)	return 0
 		H.equip_to_slot_or_del(new /obj/item/device/radio/headset/heads/captain(H), slot_l_ear)
@@ -57,7 +55,6 @@ var/datum/announcement/minor/captain_announcement = new(do_newscast = 1)
 	supervisors = "the captain"
 	selection_color = "#ddddff"
 	idtype = /obj/item/weapon/card/id/silver
-	req_admin_notify = 1
 	minimal_player_age = 10
 	access = list(access_security, access_sec_doors, access_brig, access_court, access_forensics_lockers,
 			            access_medical, access_engine, access_change_ids, access_ai_upload, access_eva, access_heads,
