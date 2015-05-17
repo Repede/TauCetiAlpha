@@ -288,6 +288,9 @@ This saves us from having to call add_fingerprint() any time something is put in
 				update_hair(redraw_mob)	//rebuild hair
 				update_inv_ears(0)
 				update_inv_wear_mask(0)
+				W.update_icon(src)
+			W.equipped(src, slot)
+			update_inv_head(redraw_mob)
 		if(slot_shoes)
 			src.shoes = W
 			W.equipped(src, slot)
