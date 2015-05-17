@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: code\modules\mob\living\carbon\human\inventory.dm
+WINDOW: icons\misc\fullscreen.dmi
 LAST_COMPILE_VERSION: 506.1250
-DIR: code code\__HELPERS code\controllers code\datums code\game code\game\gamemodes code\game\gamemodes\events code\game\gamemodes\extended code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\jobs code\game\jobs\job code\game\machinery code\modules code\modules\mob code\modules\mob\living code\modules\mob\living\carbon code\modules\mob\living\carbon\human maps 
-FILE: code\modules\mob\living\carbon\human\inventory.dm
-LAST_COMPILE_TIME: 1431891913
+DIR: code code\__HELPERS code\controllers code\datums code\game code\game\gamemodes code\game\gamemodes\events code\game\gamemodes\extended code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\jobs code\game\jobs\job code\game\machinery icons icons\misc 
+FILE: icons\misc\fullscreen.dmi
+LAST_COMPILE_TIME: 1431899029
 AUTO_FILE_DIR: OFF
 */
 // END_INTERNALS
