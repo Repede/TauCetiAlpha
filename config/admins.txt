@@ -6,6 +6,7 @@
 ######################################################################
 
 BlackAngelsAce - Host
+SkullzMaster - HeadAdmin
 IcarusKnight - HeadAdmin
 Punisher106 - GameAdmin
 Vexif - Trial Admin
