@@ -1,11 +1,11 @@
 // BEGIN_INTERNALS
 /*
 MAP_ICON_TYPE: 0
-WINDOW: icons\misc\fullscreen.dmi
+WINDOW: maps\exodus-1.dmm
 LAST_COMPILE_VERSION: 506.1250
-DIR: code code\__HELPERS code\controllers code\datums code\game code\game\gamemodes code\game\gamemodes\events code\game\gamemodes\extended code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\jobs code\game\jobs\job code\game\machinery icons icons\misc 
-FILE: icons\misc\fullscreen.dmi
-LAST_COMPILE_TIME: 1431899946
+DIR: code code\__HELPERS code\controllers code\datums code\game code\game\gamemodes code\game\gamemodes\events code\game\gamemodes\extended code\game\gamemodes\nuclear code\game\gamemodes\sandbox code\game\jobs code\game\jobs\job code\game\machinery icons maps 
+FILE: maps\exodus-1.dmm
+LAST_COMPILE_TIME: 1431908549
 AUTO_FILE_DIR: OFF
 */
 // END_INTERNALS
