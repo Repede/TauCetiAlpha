@@ -79,7 +79,7 @@
 	var/disable_player_mice = 0
 	var/uneducated_mice = 0 //Set to 1 to prevent newly-spawned mice from understanding human speech
 
-	var/usealienwhitelist = 0
+	var/usealienwhitelist = 1
 	var/limitalienplayers = 0
 	var/alien_to_human_ratio = 0.5
 
@@ -87,9 +87,9 @@
 	var/debugparanoid = 0
 
 	var/server
-	var/banappeals
+	var/banappeals = "http://tauceti.ru/forums/index.php?board=71.0"
 	var/wikiurl
-	var/forumurl
+	var/forumurl = "http://tauceti.ru/forums/"
 
 	//Alert level description
 	var/alert_desc_green = "All threats to the station have passed. Security may not have weapons visible, privacy laws are once again fully enforced."
