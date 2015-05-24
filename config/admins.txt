@@ -7,10 +7,8 @@
 
 BlackAngelsAce - Host
 SkullzMaster - HeadAdmin
-IcarusKnight - HeadAdmin
 Punisher106 - GameAdmin
-Vexif - Trial Admin
-Ribbonflex - Trial Admin
-Noah_Vokunah - Trial Admin
-Hydrablast - Trial Admin
-Sparky78223 - Trial Admin
+Vexif - GameAdmin
+Ribbonflex - GameAdmin
+Noah_Vokunah - GameAdmin
+Hydrablast - GameAdmin
