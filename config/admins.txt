@@ -12,3 +12,4 @@ Vexif - GameAdmin
 Ribbonflex - GameAdmin
 Noah_Vokunah - GameAdmin
 Hydrablast - GameAdmin
+Asfridur - TrialAdmin
